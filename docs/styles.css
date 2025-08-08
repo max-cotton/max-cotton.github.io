@@ -44,9 +44,14 @@ nav a:hover {
 	color: var(--blue);
 }
 
-#fetch-image, #about{
+#about-logo {
+	display: inline-block;
+}
+
+#about-details {
 	display: inline-block;
 	vertical-align: top;
+	margin-left: 0.3em;
 }
 
 #projects a {

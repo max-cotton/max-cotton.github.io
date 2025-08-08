@@ -1,5 +1,50 @@
 * {
 	background-color: black;
-	color: red;
+	color: white;
+	font-family: monospace;
+	font-size: 1.1em;
+}
+
+nav a {
+	margin: -0.3em;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.prompt-string {
+	margin: 0.2em 0em;
+}
+
+.prompt-string span {
+	margin: -0.3em;
+}
+
+#fetch-image, #about{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#projects a {
+	text-decoration: none;
+}
+
+#projects a:hover {
+	text-decoration: underline;
+}
+
+@keyframes flash {
+	0% {opacity: 100%;}
+	50% {opacity: 0%;}
+	100% {opacity: 100%;}
+}
+
+#cursor {
+	animation-name: flash;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: step-start;
 }
 

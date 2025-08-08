@@ -99,3 +99,9 @@ nav a:hover {
 	margin-top: 0.7em;
 }
 
+.dotfiles-image {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+

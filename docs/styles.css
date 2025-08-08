@@ -3,6 +3,7 @@
 	--green: #19cb00;
 	--white: #dddddd;
 	--blue: #0d73cc;
+	--magenta: #cb1ed1;
 }
 
 * {
@@ -46,12 +47,17 @@ nav a:hover {
 
 #about-logo {
 	display: inline-block;
+	color: var(--magenta);
 }
 
 #about-details {
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 0.3em;
+}
+
+.about-detail {
+	color: var(--magenta);
 }
 
 #projects a {

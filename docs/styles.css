@@ -60,13 +60,25 @@ nav a:hover {
 	color: var(--magenta);
 }
 
-#projects a {
+#projects {
+	margin-bottom: 0.3em;
+}
+
+#projects a, #extra a {
 	color: var(--cyan);
 	text-decoration: none;
 }
 
-#projects a:hover {
+#projects a:hover, #extra a:hover {
 	text-decoration: underline;
+}
+
+#extra {
+	margin-bottom: 0.2em;
+}
+
+#extra a {
+	margin-left: 1em;
 }
 
 @keyframes flash {

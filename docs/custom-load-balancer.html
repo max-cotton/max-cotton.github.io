@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta name="author" content="Max Cotton">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Custom Load Balancer</title>
 		<link rel="stylesheet" href="styles.css">
 		<script src="script.js" defer></script>
-		<meta charset="UTF-8">
 	</head>
 	<body>
 		<header>
 			<nav>
-				<a href="/" style="color: red">~/</a>
+				<a href="/">~/</a>
 			</nav>
 		</header>
 		<main>
 			<div class="prompt-string">
-				<span style="color: green">root@portfolio</span>
+				<span class="prompt-user-host">root@portfolio</span>
 				<span>:</span>
-				<span style="color: blue">~/Projects/Custom Load Balancer</span>
+				<span class="prompt-path">~/Projects/Custom Load Balancer</span>
 				<span>$ cat README</span>
 			</div>
 			<ul>
@@ -27,11 +29,11 @@
 				<li>Provided Docker files and set up a GitHub workflow to run both unit and integration tests as part of the CI/CD.</li>
 			</ul>
 			<div class="prompt-string">
-				<span style="color: green">root@portfolio</span>
+				<span class="prompt-user-host">root@portfolio</span>
 				<span>:</span>
-				<span style="color: blue">~/Projects/Custom Load Balancer</span>
+				<span class="prompt-path">~/Projects/Custom Load Balancer</span>
 				<span>$ </span>
-				<span id="cursor">|</span>
+				<span class="cursor">|</span>
 			</div>
 		</main>
 	</body>	

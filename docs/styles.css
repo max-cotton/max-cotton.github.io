@@ -105,3 +105,15 @@ nav a:hover {
 	border-color: black;
 }
 
+#black-hole {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	bottom: 50px;
+	right: 100px;
+	background-color: black;
+	aspect-ratio: 1 / 1;
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px 5px var(--white);
+}
+

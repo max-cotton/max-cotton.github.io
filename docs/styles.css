@@ -112,6 +112,9 @@ nav a span {
 }
 
 .school-project-image {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
 	margin: 0px 25px;
 }
 

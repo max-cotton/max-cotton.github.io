@@ -53,12 +53,12 @@ nav a span {
 
 #about-logo {
 	display: inline-block;
-	color: var(--magenta);
+	vertical-align: middle;
 }
 
 #about-details {
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 	margin-left: 0.3em;
 }
 

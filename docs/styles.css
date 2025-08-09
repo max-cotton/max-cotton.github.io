@@ -29,6 +29,12 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+nav a span {
+	color: var(--cyan);
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+
 .prompt-string {
 	margin: 0.2em 0em;
 }
@@ -67,6 +73,12 @@ nav a:hover {
 #projects a, #extra a {
 	color: var(--cyan);
 	text-decoration: none;
+}
+
+#projects a span, #extra a span {
+	color: var(--cyan);
+	font-size: 1.4em;
+	vertical-align: middle;
 }
 
 #projects a:hover, #extra a:hover {
